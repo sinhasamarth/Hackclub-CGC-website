@@ -1,0 +1,49 @@
+.Main-menu{
+    top: 0px;
+    background-color: #171717;
+    color: white;
+   display: block;
+    height: 100px;
+    padding: 19px;
+ border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom:  linear-gradient(blue,grey);
+
+}
+.header-gradient-after
+{
+    background-image: linear-gradient(90deg,#ff8a00,#e52e71);
+    width: 100%;
+}
+.Site-name-header
+{
+    float: left;
+    width: 40%;
+    
+}
+
+.body{
+    padding: 0;
+    margin:0;
+    
+}
+.Left-side-header ul {
+    list-style: none;
+    float: right;
+    color: white;
+}
+.Left-side-header ul li{
+    display: inline-block;
+    font-size: 2em;
+   padding: 0px 10px;
+    color: white;
+}
+.Left-side-header ul li a {
+
+    color: white;
+}
+.Left-side-header ul li a:hover{
+    border-bottom: 4px crimson solid ;
+    text-decoration: none;
+    transition: 0.4s horizontal  ;
+}
