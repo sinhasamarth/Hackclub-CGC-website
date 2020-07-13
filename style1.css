@@ -1,0 +1,74 @@
+.main-menu{
+    top: 0px;
+    background-color: #1f2d3d;
+    color: white;
+   display: block;
+    height: 69px;
+    padding: 15px;
+
+}
+.header-gradient-after
+{
+    background-image: linear-gradient(90deg,#ff8a00,#e52e71);
+    width: 100%;
+}
+
+.body{
+    padding: 0;
+    margin:0;
+    
+}
+.left-side-header ul {
+    list-style: none;
+    margin-left: 30%;
+    color: white;
+}
+.left-side-header ul li{
+    display: inline-block;
+    font-size: 1.5em;
+   padding: 0px 10px;
+    color: white;
+}
+.left-side-header ul li a {
+
+    color: white;
+}
+.left-side-header ul li a:hover{
+    border-bottom: 4px crimson solid ;
+    text-decoration: none;
+    transition: 0.4s horizontal  ;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+.heading{
+    margin-top: 15%;
+    margin-left: 15%;
+    font-weight: bold;
+
+}
+
+.sub-head{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sub-para{
+    margin-left: 20%;
+    margin-right: 20%;
+}
