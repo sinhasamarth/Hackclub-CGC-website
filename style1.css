@@ -1,7 +1,7 @@
 .main-menu{
     top: 0px;
-    background-color: #1f2d3d;
-    color: white;
+    background-color: #c4cdd9;;
+    color:  #1f2d3d;
    display: block;
     height: 69px;
     padding: 15px;
@@ -21,17 +21,18 @@
 .left-side-header ul {
     list-style: none;
     margin-left: 30%;
-    color: white;
+    color: #1f2d3d;
 }
 .left-side-header ul li{
     display: inline-block;
     font-size: 1.5em;
+    font-weight: 700;
    padding: 0px 10px;
-    color: white;
+    color:#1f2d3d;
 }
 .left-side-header ul li a {
 
-    color: white;
+    color: #1f2d3d;
 }
 .left-side-header ul li a:hover{
     border-bottom: 4px crimson solid ;
