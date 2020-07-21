@@ -1,0 +1,29 @@
+img{
+    width: 80%;
+    box-shadow: 0 0 36px rgba(0,0,0,.4);
+}
+.team-section a{
+    color: black !important;
+
+}
+.team-section a:hover{
+    text-decoration: none !important;
+    font-size: xx-large;
+}
+.team-section .fa-github:hover{
+    color: lightgreen;
+}
+.team-section .fa-linkedin:hover{
+    color: #0077B5;
+}
+.team-section .fa-envelope:hover{
+    color:#EA4335;
+}
+.list-unstyled{
+    margin:20px !important
+}
+.our-team-styles{
+    border: 10px solid;
+    border-image-source: linear-gradient(90deg,#ff8a00,#e52e71);
+    border-image-slice: 1;
+}
