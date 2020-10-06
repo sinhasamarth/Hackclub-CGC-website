@@ -14,5 +14,5 @@ Current version- "1.0"
 <a href = "https://www.instagram.com/hackclubcgc/ ">Instagram</a><br>
 <a href = "https://www.facebook.com/Hackclub-CGC-108265361022351/">Facebook</a> <br>
 <a href = "https://t.me/joinchat/OfRcaUY2Qrnze53bH9wRtw "/>Telegram </a><br>
- Mail Us At - services@hackclubcgc.tech
+ **Mail Us At -** hackclubcgc@gmail.com or services@hackclubcgc.tech
 
