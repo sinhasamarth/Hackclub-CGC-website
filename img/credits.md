@@ -1,1 +1,0 @@
-Resources link - Freepik.com
