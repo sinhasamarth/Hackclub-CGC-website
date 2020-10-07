@@ -1,0 +1,188 @@
+.team-section img{
+    width: 80%;
+    box-shadow: 0 0 36px rgba(0,0,0,.4);
+}
+.team-section{
+    margin-top: 6em !important;
+}
+.team-section a{
+    color: black !important;
+
+}
+.team-section a:hover{
+    text-decoration: none !important;
+    font-size: xx-large;
+}
+.team-section .fa-github:hover{
+    color: lightgreen;
+}
+.team-section .fa-linkedin:hover{
+    color: #0077B5;
+}
+.team-section .fa-envelope:hover{
+    color:#EA4335;
+}
+.list-unstyled{
+    margin:20px !important
+}
+    
+    .yoyo{
+   width: 200px; height: 200px;
+   position: relative;
+   box-shadow: 0 0 20px rgba(0,0,0,0.3);
+   cursor: pointer;
+   overflow: hidden;
+   border-radius: 200px;
+       
+}
+
+.yodetails,.yoimage{
+   width: 100%; height: 100%;
+   position: absolute;
+   top: 0; left: 0;
+}
+
+.yoimage{
+   display: flex;
+   perspective: 1500px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+   box-shadow: 0 0 36px rgba(0,0,0,.4);
+}
+
+.yodet{
+   background-color: #e32e42;
+}
+      .yodel{
+          background-color: #0367af;
+      }
+      
+      
+
+.yocontent{
+   position: absolute;
+   top: 50%; left: 50%;
+   transform: translate(-50%,-50%);
+   color: #fff;
+   text-transform: capitalize;
+   font-family: 'Century Gothic';
+   text-align: center;
+   font-size: larger;    
+}
+
+
+    .abhay{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/Abhay-Chaubey.jpg) no-repeat;
+   background-size: cover;
+}
+    .vipul{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/vipul.png) no-repeat;
+   background-size: cover;
+}
+      .saksham{
+           width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/saksham.png) no-repeat;
+   background-size: cover;
+          
+      }
+      .vikas{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/Vikas-Sethi.jpg) no-repeat;
+   background-size: cover;
+}
+      
+      .rohtansh{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/Rohtansh-Sehgal.jpg) no-repeat;
+   background-size: cover;
+}
+      .samarth{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/Samarth-Sinha.PNG) no-repeat;
+   background-size: cover;
+}
+      .sachin{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/sachin.jpeg) no-repeat;
+   background-size: cover;
+}
+      .lovepreet{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/Lovepreet-%20Singh.jpg) no-repeat;
+   background-size: cover;
+}
+      .rishabh{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/Rishabh-sahni.jpeg) no-repeat;
+   background-size: cover;
+}
+       .parv{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/PARV%20-PARIHAR.jpg) no-repeat;
+   background-size: cover;
+}
+   .yash{
+   width: 50%; height: 100%;
+   list-style: none;
+   background: url(../Team-pic-croped/yash.jpg) no-repeat;
+   background-size: cover;
+}
+
+.part1{
+     transition: all 0.5s;
+     transform-origin: left;
+    
+}
+
+.part2{
+      background-position: -100px;       
+      transition: all 0.5s;
+      transform-origin:right;
+}
+
+.yoyo:hover .part1{
+      transform: rotateY(98deg);
+}
+
+.yoyo:hover .part2{
+      transform: rotateY(-98deg);
+}
+      
+      @media only screen and (max-width: 766px){
+          .yoyo{
+              width: 150px;
+              height: 150px;
+              border-radius: 150px;
+          }
+          .part2{
+              background-position: -75px;
+          }
+          .Team-headline{
+              font-size: 36px !important;
+          }
+          .list-unstyled a{
+              
+              padding-top: 20px !important;
+          }
+          .fuck{
+              font-size: large;
+          }
+
+      }    
+      
+    
+    
+    

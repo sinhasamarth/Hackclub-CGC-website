@@ -1,0 +1,66 @@
+.nav-link-custom{
+    font-size: X-large;
+    font-weight: bolder;
+    color: black;
+   
+    margin: auto 10px;
+    vertical-align: middle;
+    line-height: 100px;
+
+}
+.nav-link-custom:hover{
+    color: #E42D41 !important;
+    border-bottom: solid 5px #E42D41;
+
+}
+
+.gradient-line{
+   
+    margin: 0 0;
+    left: 0;
+    right: 0;
+
+    height: 7px;
+  
+    background-image: linear-gradient(90deg,#0964A4,#E42D41);
+    overflow: hidden;
+ 
+
+
+}
+
+.flag {
+  position: fixed;
+  display: block;
+  width: 208px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1030 !important;
+  cursor: pointer;
+ 
+}
+    .gradientvaliline{
+  position: fixed;
+  display: block;
+  height: 6px;
+  top: 46px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  cursor: pointer;
+ 
+}  
+
+.active{
+              color: #DD3043 !important;
+              font-weight: 600;
+          }
+ .navbar a:hover{
+    transform: scale(1.06,1.06);
+    color: crimson !important;
+}     
+     
