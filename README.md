@@ -1,7 +1,7 @@
 # Hackclub-CGC-website
 
 This is the official repository of
-HACKCLUB-CGC website.
+HACKCLUB-CGC website - <a href = "https://hackclubcgc.tech ">Website Link</a><br> 
 
 
 Current version- "1.0"
